@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -11,9 +11,12 @@ const Home = () => {
             Achieve your strength goals with AI-powered programming tailored
             specifically for powerlifters and strength athletes
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+          <Link
+            to="/programs"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300"
+          >
             Start Your Journey
-          </button>
+          </Link>
         </div>
       </div>
       <div className="bg-black flex flex-col items-center justify-center h-50 p-30 ">

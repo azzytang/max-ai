@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="flex flex-row items-center p-4 bg-black text-white justify-center w-dvw h-25">
       <Link
         to="/"
-        className="text-2xl font-bold mr-6 hover:text-gray-400 hover:bg-gray-800 rounded-md p-2 mr-250"
+        className="text-2xl font-bold mr-6 hover:text-gray-400 hover:bg-gray-800 rounded-md p-2 mr-200"
       >
         Max AI
       </Link>
